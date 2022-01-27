@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+nav{
+    background-color: orange;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 40px;
+    line-height: 60px;
+}
+nav a:hover{
+    color: white;
+    background-color: black;
+}
+nav ul{
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: orange;
+}
+nav ul ul{
+    position: absolute;
+    display: none;
+    border: none;
+}
+nav ul li:hover >ul{
+    display: list-item;
+}
+nav ul ul li{
+    display: list-item;
+}
+nav ul ul li li{
+    margin-left: 244.89px;
+    background-color: orange;
+}
+nav ul ul li li li{
+    margin-left: 219px;
+}
